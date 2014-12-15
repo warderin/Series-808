@@ -1,0 +1,446 @@
+/*
+Theme Name: Series 8:08
+Theme URI: http://series808.ca/
+Author: Erin Ward
+Author URI: http://warder.in/
+Description: Wordpress Theme for Series 8:08
+Version: 1.0
+*/
+
+article, aside, figcaption, figure, footer, header, nav, section {
+  display: block;
+}  
+
+h1 {
+	font-size: 36pt;
+	font-weight: bold;
+	margin: 30px;
+	padding-left: 3%;
+	width: 90%;
+}
+
+h2 {
+	margin: 0 0 0 10%;
+	font-size: 20pt;
+	padding-top: 24px;
+	font-weight: lighter;
+	}
+
+h3 {
+	font-size: 18pt; 
+	margin: 0;
+	color: #333;}
+
+h4 {font-size: 14pt;}
+
+h3 a:link,
+h3 a:visited,
+h3 a:hover,
+h3 a:active{
+	color: #333;
+	text-decoration: none;
+}
+
+h4 a:link,
+h4 a:visited,
+h4 a:hover,
+h4 a:active {
+	color: #555;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Helvetica', 'Open Sans', sans-serif;
+	background-color: #EAEAEA;
+	margin: 0;
+}
+
+/*--- DROPDOWN ---*/
+ul ul{
+	display: none;
+	background-color: #FFF;
+	line-height: 18pt;
+	float: right;
+	width: 160px;
+	list-style:none;
+	position: absolute;
+	right: 202px;
+	margin-top: 15px;
+	z-index: 10;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	padding-left: 0px;
+}
+
+ul ul li {
+	padding-left: 10px !important;
+	display: list-item !important;
+	font-weight: 400;
+	font-size: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #666;
+	background-color: #FFF;
+}
+
+ul ul li:hover {
+	background-color: #EEE;
+}
+
+.dropdown li {
+	font-weight: normal;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: list-item !important;
+}
+
+.dropdown_button {
+	padding-bottom: 26px;
+	cursor: pointer;
+}
+
+.icon {
+    height: 18px;
+    width: auto;
+    margin-top: -3px;
+    margin-right: 15px;
+    vertical-align: middle
+}
+
+.photo {
+	width: 100%;
+	min-height: 600px;
+	margin: 0;
+	background: url(https://dl-web.dropbox.com/get/Series%20808/new%20808/images/29sep2012_0303.jpg?_subject_uid=38910814&w=AADr1WRIfv6mKu0K-FMiHoKvv_FlYN1fWqUeTojnQhKmqA) no-repeat center center; 
+	border-top: 1px solid #999;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+ 
+.title {
+	font-size: 36pt;
+    font-weight: bold;
+    color: #FFF;
+    display: block;
+    margin-top: 250px; 
+}
+ 
+.bio p {
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-size:16pt;
+    line-height: 21pt;
+    color: #FFF;
+}
+ 
+.but {
+	width: 160px;
+    height: 35px;
+    border-radius: 10px;
+    color: #FFF;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 1px solid white;
+}
+
+.but a:link, 
+.but a:visited, 
+.but a:hover, 
+.but a:active {
+	color: #fff;
+	text-decoration:none;
+}
+
+.newsletter {
+	width: 100%;
+	height: 55px;
+	margin: 0 auto;
+	background-color: #F26523;
+	font-family: 'Helvetica', 'Open Sans', sans-serif;
+	padding: 5px 0;
+}
+
+object { float: left; }
+
+.newslettercont { height: 75px; margin: 0 auto; }
+
+.newsletter p {
+	float: left;
+	padding: 0 30px;
+	color: #FFF;
+}
+
+.newsletter .button {
+	width: 135px;
+	height: 35px;
+	border-radius: 10px;
+	background-color: #FFF;
+	color: #F26523;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.button a:link, 
+.button a:visited, 
+.button a:hover, 
+.button a:active {
+	color: #f26523;
+	text-decoration: none;
+}
+
+.programs p {
+	display: block;
+	font-family: 'Open Sans';
+}
+
+.programs {
+	min-height: 250px;
+	margin: 0;
+	padding: 30px 0 20px;
+}
+
+.events {
+	width: 100%;
+	min-height: 250px;
+	margin: 0;
+	background-color: #fff;
+	padding: 30px 0 20px 0;
+}
+
+.eventlist {
+	font-family: 'Open Sans';
+	display: block;
+}
+
+.event-title {
+	font-size: 36pt;
+	font-weight: bold;
+	width: 100%;
+}
+
+.event-title a:link,
+.event-title a:visited,
+.event-title a:hover,
+.event-title a:active,
+.event p a:link,
+.event p a:visited,
+.event p a:hover,
+.event p a:active {
+	color:#333;
+	text-decoration: none;
+}
+
+.event p a:link,
+.event p a:visited,
+.event p a:hover,
+.event p a:active {
+	color:#333;
+	text-decoration: underline;
+}
+
+.eventcontent p,
+.eventcontent ul {
+	margin-top: 0;
+}
+
+
+ul.info {
+	color:#666;
+	list-style-type: none;
+	padding: 0!important;
+	font-size: 12pt;
+	line-height: 18pt;
+}
+
+.entry {
+	background-color: #fff;
+	padding: 36px 0 36px 0 !important;
+
+	-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.entry p {
+	font-size: 12pt;
+	line-height: 18pt;
+}
+
+.meta {
+	color: #666;
+	line-height: 18pt;
+}
+
+footer {
+	bottom: 0;
+	clear: both;
+	position: relative;
+	width: 100%;
+	min-height: 70px;
+	height: auto;
+	background-color: #444;
+}
+
+footer div {
+	width: 50%;
+	color: #FFF;
+	text-align: center;
+	line-height: 70px;
+	font-weight: 100;
+	margin: 0 auto;
+}
+
+footer a {
+	color: #FFF;
+}
+
+.overlay h1 {
+    	font-size: 40pt;
+	}
+
+	.overlay p {
+	    font-size: 16pt;
+	}
+
+	.instructor {
+		width: 30%;
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	.events h2 {
+		font-size: 36pt;
+	}
+
+	.events h5 {
+		font-size: 24pt;
+		padding:0;
+		margin:0;
+	}
+
+
+
+
+
+	header {
+		font-weight: bold;
+		width: 100%;
+		height: auto;
+		min-height: 70px;
+		margin: 0;
+		background-color: #FFFFFF;
+	}
+
+	.logo {
+		padding-left:40px;
+		float: left;
+	}
+
+	header nav {
+		float: right;
+		line-height: 38px;
+		background-color: #FFF;
+	}
+
+	header a:link,
+	header a:visited,
+	header a:hover,
+	header a:active {
+	color:#333;
+	text-decoration: none;
+}
+
+	.topnav {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.topnav li {
+		display: inline;
+		list-style-type: none;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+
+.secondhead {
+	width: 100%;
+	height: 150px;
+	background-color: #F26523;
+	color: #FFF;
+}
+
+.thirdhead {
+	width: 100%;
+	height: 70px;
+	background-color: #F26523;
+	color: #FFF;
+	border-top: 1px #666 solid;
+}
+
+
+.secondhead li {
+	display: inline;
+	padding: 10px 20px;
+	letter-spacing: 1px;
+}
+
+.current_page_item {
+	background-color: #C5470C;
+}
+
+.secondhead a:link,
+.secondhead a:visited,
+.secondhead a:hover,
+.secondhead a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.history p {
+	font-family: 'Open Sans';
+	font-size: 12pt;
+	line-height: 18pt;
+	margin: 30px;
+}
+
+.history img {
+	width: 100%;
+	height: auto;
+}
+
+.programdesc {
+	padding: 20px 0;
+	line-height: 18pt;
+}
+
+
+	.secondhead h2 {
+		font-size: 30pt;
+		font-weight: lighter;
+		margin: 0;
+		padding: 70px 0 0 10%;
+		float: left;
+	}
+
+	.secondhead ul {
+		position: relative;
+		width: 450px;
+		margin-right: 10%;
+		padding-top: 69px;
+		float: right;
+	}
+
